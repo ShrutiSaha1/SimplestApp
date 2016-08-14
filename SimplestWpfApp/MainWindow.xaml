@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="120" RenderTransformOrigin="3.625,1.304" Margin="60,0,0,294"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="60,30,0,0" Width="120"/>
-        <Label x:Name="label" Content="no1" HorizontalAlignment="Left" Margin="0,-3,0,0" VerticalAlignment="Top" Width="55"/>
-        <Label x:Name="label_Copy" Content="no2" HorizontalAlignment="Left" Margin="0,28,0,0" VerticalAlignment="Top" Width="55"/>
-        <Button x:Name="button" Content="ADD" HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top" Width="54" Click="button_Click"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="79,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="input1" HorizontalAlignment="Left" Margin="70,13,0,0" Height="23" VerticalAlignment="Top" TextWrapping="Wrap" Width="120"/>
+        <TextBox x:Name="input2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="70,41,0,0" Width="120"/>
+        <Label x:Name="label1" Content="Input 1" Margin="10,10,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="55"/>
+        <Label x:Name="label2" Content="Input 2" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="55"/>
+        <Button x:Name="Add" Content="ADD" HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top" Width="54" Click="button_Click"/>
+        <TextBox x:Name="Output" HorizontalAlignment="Left" Height="23" Margin="70,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>

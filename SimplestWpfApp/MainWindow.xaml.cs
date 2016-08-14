@@ -27,15 +27,7 @@ namespace SimplestWpfApp
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            String t1, t2;
-            t1 = textBox.Text;
-            t2 = textBox1.Text;
-            int a = int.Parse(t1);
-            int b = int.Parse(t2);
-            int c = a + b;
-            textBox2.Text = c.ToString();
-
-
+            Output.Text = Convert.ToString(int.Parse(input1.Text) + int.Parse(input2.Text));
         }
     }
 }
